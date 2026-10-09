@@ -1,0 +1,15 @@
+{
+  "name": "e405039b-7300-40f9-a11f-9dc3d931c2fd",
+  "displayName": "Unsupported Information Check",
+  "enabled": true,
+  "action": {
+    "generativeAnswer": {
+      "prompt": "Do not provide unsupported information.\n\nIf the response contains an unsupported claim, apologize briefly\nand provide only information that is verified by the available\nconversation context or tool results.\n\nNever fabricate product, wardrobe, stylist, availability, pricing,\nor booking information."
+    }
+  },
+  "llmPolicy": {
+    "maxConversationMessages": 1,
+    "prompt": "Check whether the assistant\u0027s response contains information or\nclaims that are unsupported by the available conversation context,\nstored state, or tool results.\n\nTrigger if the assistant:\n- invents a product, price, size, color, or availability\n- invents wardrobe items\n- invents stylist information\n- invents booking availability\n- claims that a booking was completed without successful confirmation\n- claims that a wardrobe item was added, updated, or removed without\n  successful tool confirmation\n- claims that a tool returned information that it did not return\n\nDo not trigger when the response is clearly based on information\nprovided by the user or returned by a tool.",
+    "policyScope": "USER_QUERY"
+  }
+}

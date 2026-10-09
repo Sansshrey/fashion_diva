@@ -1,0 +1,15 @@
+{
+  "name": "a0f2aecc-5def-45fb-a35c-f1031e916446",
+  "displayName": "Human Escalation Trigger",
+  "enabled": true,
+  "action": {
+    "generativeAnswer": {
+      "prompt": "Tell the user briefly and politely that their request needs human\nassistance.\n\nDo not mention internal agents, guardrails, tool failures, state,\nrouting logic, or technical implementation details.\n\nDo not continue attempting the failed task."
+    }
+  },
+  "codeCallback": {
+    "afterModelCallback": {
+      "pythonCode": "guardrails/Human_Escalation_Trigger/code_callback/after_model_callback/python_code.py"
+    }
+  }
+}

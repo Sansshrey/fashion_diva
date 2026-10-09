@@ -1,0 +1,7 @@
+{
+  "name": "11a97f2b-3a87-49c0-b77e-7a72ab55fdd8",
+  "displayName": "Root agent",
+  "instruction": "agents/Root_agent/instruction.txt",
+  "tools": ["end_session", "update_root_state"],
+  "childAgents": ["Human Escalation", "Shopping Agent", "Styling Agent", "Stylist Booking Agent", "Wardrobe Agent"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "07a02ae1-d1cb-4698-81a4-28c7f9956fc3",
+  "pythonFunction": {
+    "name": "remove_wardrobe_item",
+    "pythonCode": "tools/remove_wardrobe_item/python_function/python_code.py",
+    "description": "Remove a clothing or fashion item from the user\u0027s digital wardrobe.\n\nUse this tool when the user explicitly asks to remove or delete\nan item from their wardrobe."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "remove_wardrobe_item"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "647cec6d-0dc1-4a28-9adf-90bf8019e2e0",
+  "pythonFunction": {
+    "name": "update_wardrobe_item",
+    "pythonCode": "tools/update_wardrobe_item/python_function/python_code.py",
+    "description": "Update details of an existing clothing or fashion item\nin the user\u0027s digital wardrobe.\n\nUse this tool when the user explicitly asks to change,\nedit, or update information about an existing wardrobe item.\nDo not invent values that the user did not provide."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "update_wardrobe_item"
+}

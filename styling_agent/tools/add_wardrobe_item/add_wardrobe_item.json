@@ -1,0 +1,10 @@
+{
+  "name": "2f5b2235-78e0-4409-a63d-15855840b52b",
+  "pythonFunction": {
+    "name": "add_wardrobe_item",
+    "pythonCode": "tools/add_wardrobe_item/python_function/python_code.py",
+    "description": "Add a new clothing or fashion item to the user\u0027s digital wardrobe.\n\nUse this tool when the user uploads or describes a new wardrobe item.\nStore only information provided by the user. Do not invent missing attributes."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "add_wardrobe_item"
+}

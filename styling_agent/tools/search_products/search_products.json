@@ -1,0 +1,10 @@
+{
+  "name": "89dbacd1-fd30-427f-9c66-a424277c6187",
+  "pythonFunction": {
+    "name": "search_products",
+    "pythonCode": "tools/search_products/python_function/python_code.py",
+    "description": "Search the Mr.Shop fashion product catalog.\n\nUse this tool when the user wants to find or purchase fashion products.\nResults are filtered using the user\u0027s query, color, budget, and size."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "search_products"
+}

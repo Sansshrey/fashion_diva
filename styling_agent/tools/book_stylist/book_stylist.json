@@ -1,0 +1,10 @@
+{
+  "name": "bd778b71-3832-465c-ac79-1deed3caa9c3",
+  "pythonFunction": {
+    "name": "book_stylist",
+    "pythonCode": "tools/book_stylist/python_function/python_code.py",
+    "description": "Book a consultation with a Mr.Shop stylist or colour analyst.\n\nUse this tool only after the user has selected a stylist,\nconsultation type, date, and available time slot.\n\nThe tool returns a booking confirmation only when the\nbooking is successfully created."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "book_stylist"
+}

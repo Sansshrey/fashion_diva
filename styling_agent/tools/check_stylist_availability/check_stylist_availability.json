@@ -1,0 +1,10 @@
+{
+  "name": "0e82f044-60db-4f65-928c-2fb3d186ffe5",
+  "pythonFunction": {
+    "name": "check_stylist_availability",
+    "pythonCode": "tools/check_stylist_availability/python_function/python_code.py",
+    "description": "Check available consultation slots for a selected Mr.Shop stylist.\n\nUse this before booking a consultation.\nNever claim a slot is available without checking this tool."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "check_stylist_availability"
+}

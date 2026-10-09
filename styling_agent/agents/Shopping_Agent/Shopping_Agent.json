@@ -1,0 +1,6 @@
+{
+  "name": "3872ddc7-5947-49fd-9e77-1d41d45269db",
+  "displayName": "Shopping Agent",
+  "instruction": "agents/Shopping_Agent/instruction.txt",
+  "tools": ["end_session", "search_products"]
+}

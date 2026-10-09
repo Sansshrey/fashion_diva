@@ -1,0 +1,9 @@
+{
+  "name": "4ee01e65-69ba-4fa5-8f2c-be96d0d24beb",
+  "pythonFunction": {
+    "name": "get_stylists",
+    "pythonCode": "tools/get_stylists/python_function/python_code.py"
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "get_stylists"
+}

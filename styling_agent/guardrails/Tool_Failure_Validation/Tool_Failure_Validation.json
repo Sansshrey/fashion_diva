@@ -1,0 +1,15 @@
+{
+  "name": "5df93bce-9073-4e00-bf4a-874563fe4c77",
+  "displayName": "Tool Failure Validation",
+  "enabled": true,
+  "action": {
+    "generativeAnswer": {
+      "prompt": "Do not claim that the requested action succeeded.\n\nIf the operation can be retried safely, ask the system to retry it.\n\nIf the operation cannot be completed reliably, tell the user briefly\nthat the request could not be completed and that a human will need\nto assist."
+    }
+  },
+  "llmPolicy": {
+    "maxConversationMessages": 1,
+    "prompt": "Check whether the assistant claims that an action was successfully\ncompleted when the corresponding tool or system operation failed,\nreturned an error, returned incomplete information, or was not\nexecuted.\n\nTrigger when:\n- a tool reports failure but the assistant says the action succeeded\n- booking confirmation is claimed without successful confirmation\n- wardrobe modification is claimed without successful confirmation\n- product information is presented as confirmed when the product\n  lookup failed\n- the assistant hides or contradicts a critical tool failure\n\nIf the tool failure is recoverable, the assistant may retry the\noperation instead of escalating.",
+    "policyScope": "USER_QUERY"
+  }
+}

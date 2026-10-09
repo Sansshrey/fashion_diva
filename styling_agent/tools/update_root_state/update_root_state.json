@@ -1,0 +1,9 @@
+{
+  "name": "eea9e904-9cf5-429b-abcb-0cf6475ba9f0",
+  "pythonFunction": {
+    "name": "update_root_state",
+    "pythonCode": "tools/update_root_state/python_function/python_code.py"
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "update_root_state"
+}

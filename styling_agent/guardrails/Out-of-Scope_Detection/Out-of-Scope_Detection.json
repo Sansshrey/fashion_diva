@@ -1,0 +1,15 @@
+{
+  "name": "606977f9-f003-453a-84b0-165e50ed4a8f",
+  "displayName": "Out-of-Scope Detection",
+  "enabled": true,
+  "action": {
+    "generativeAnswer": {
+      "prompt": "Politely tell the user that you can only help with wardrobe,\nstyling, shopping, or stylist booking.\n\nKeep the response brief and redirect the user toward one of the\nsupported Mr.Shop capabilities.\n\nDo not mention guardrails, agents, internal routing, or system\nlimitations."
+    }
+  },
+  "codeCallback": {
+    "afterModelCallback": {
+      "pythonCode": "guardrails/Out-of-Scope_Detection/code_callback/after_model_callback/python_code.py"
+    }
+  }
+}

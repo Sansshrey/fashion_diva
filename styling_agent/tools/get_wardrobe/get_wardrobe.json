@@ -1,0 +1,10 @@
+{
+  "name": "7e21d844-a226-4526-8338-9bd0f60d1286",
+  "pythonFunction": {
+    "name": "get_wardrobe",
+    "pythonCode": "tools/get_wardrobe/python_function/python_code.py",
+    "description": "Retrieve all clothing and fashion items stored\nin the user\u0027s digital wardrobe."
+  },
+  "executionType": "SYNCHRONOUS",
+  "displayName": "get_wardrobe"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "adef4eb8-e988-43fd-b646-cead692bd15a",
+  "displayName": "Styling Agent",
+  "instruction": "agents/Styling_Agent/instruction.txt",
+  "tools": ["end_session", "get_wardrobe", "update_root_state"]
+}

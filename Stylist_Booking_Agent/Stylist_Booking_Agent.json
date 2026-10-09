@@ -1,0 +1,6 @@
+{
+  "name": "7e67491a-4fc3-4cba-9fc6-a8fa0a8c4242",
+  "displayName": "Stylist Booking Agent",
+  "instruction": "agents/Stylist_Booking_Agent/instruction.txt",
+  "tools": ["book_stylist", "check_stylist_availability", "end_session", "get_stylists"]
+}

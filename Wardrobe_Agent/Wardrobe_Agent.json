@@ -1,0 +1,6 @@
+{
+  "name": "b391f76c-2d4c-428c-b870-c369c2203677",
+  "displayName": "Wardrobe Agent",
+  "instruction": "agents/Wardrobe_Agent/instruction.txt",
+  "tools": ["add_wardrobe_item", "end_session", "get_wardrobe", "remove_wardrobe_item", "update_wardrobe_item"]
+}
